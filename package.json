@@ -1,0 +1,8 @@
+{
+  "name": "velario-payments-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": { "start": "node --env-file-if-exists=.env src/index.mjs", "test": "node --test test/*.test.mjs" }
+}
